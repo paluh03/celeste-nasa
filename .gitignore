@@ -1,0 +1,38 @@
+# Dependencias locales y artefactos
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+__pycache__/
+*.py[cod]
+.venv/
+**/.venv/
+
+# Base de datos local (se crea al arrancar uvicorn)
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# Documentos y material de trabajo NO versionados
+_local/
+
+# Entorno
+.env
+.env.local
+*.local
+
+# Herramientas
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tests
+.pytest_cache/
+.ruff_cache/
+coverage/
+coverage.xml
+
+# Logs
+*.log
