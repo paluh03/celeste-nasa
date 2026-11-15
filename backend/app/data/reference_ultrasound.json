@@ -1,0 +1,153 @@
+{
+  "source": "Shin et al. (2005) - Journal of Korean Medical Science, Tables 2-3",
+  "population": "Korean adults, n = 3,053",
+  "bua_unit": "dB/MHz",
+  "sos_unit": "m/s",
+  "generated_from": "Ultrasonido.xlsx",
+  "groups": [
+    {
+      "sex": "female",
+      "age_min": 20,
+      "age_max": 29,
+      "age_band": "20-29",
+      "n": 55,
+      "age_mean": 25.0,
+      "bua_mean": 113.2,
+      "bua_sd": 13.6,
+      "sos_mean": 1556.1,
+      "sos_sd": 28.2
+    },
+    {
+      "sex": "female",
+      "age_min": 30,
+      "age_max": 39,
+      "age_band": "30-39",
+      "n": 109,
+      "age_mean": 35.1,
+      "bua_mean": 113.9,
+      "bua_sd": 13.9,
+      "sos_mean": 1548.5,
+      "sos_sd": 29.4
+    },
+    {
+      "sex": "female",
+      "age_min": 40,
+      "age_max": 49,
+      "age_band": "40-49",
+      "n": 228,
+      "age_mean": 46.6,
+      "bua_mean": 111.1,
+      "bua_sd": 13.8,
+      "sos_mean": 1547.3,
+      "sos_sd": 32.1
+    },
+    {
+      "sex": "female",
+      "age_min": 50,
+      "age_max": 59,
+      "age_band": "50-59",
+      "n": 519,
+      "age_mean": 55.4,
+      "bua_mean": 105.2,
+      "bua_sd": 12.9,
+      "sos_mean": 1537.3,
+      "sos_sd": 28.0
+    },
+    {
+      "sex": "female",
+      "age_min": 60,
+      "age_max": 69,
+      "age_band": "60-69",
+      "n": 756,
+      "age_mean": 65.0,
+      "bua_mean": 95.4,
+      "bua_sd": 11.7,
+      "sos_mean": 1520.8,
+      "sos_sd": 23.0
+    },
+    {
+      "sex": "female",
+      "age_min": 70,
+      "age_max": 74,
+      "age_band": "70-74",
+      "n": 161,
+      "age_mean": 72.0,
+      "bua_mean": 90.2,
+      "bua_sd": 11.7,
+      "sos_mean": 1507.6,
+      "sos_sd": 20.5
+    },
+    {
+      "sex": "male",
+      "age_min": 20,
+      "age_max": 29,
+      "age_band": "20-29",
+      "n": 50,
+      "age_mean": 24.5,
+      "bua_mean": 121.4,
+      "bua_sd": 15.6,
+      "sos_mean": 1556.1,
+      "sos_sd": 47.7
+    },
+    {
+      "sex": "male",
+      "age_min": 30,
+      "age_max": 39,
+      "age_band": "30-39",
+      "n": 77,
+      "age_mean": 35.5,
+      "bua_mean": 121.2,
+      "bua_sd": 15.7,
+      "sos_mean": 1554.6,
+      "sos_sd": 40.2
+    },
+    {
+      "sex": "male",
+      "age_min": 40,
+      "age_max": 49,
+      "age_band": "40-49",
+      "n": 137,
+      "age_mean": 46.0,
+      "bua_mean": 119.2,
+      "bua_sd": 13.9,
+      "sos_mean": 1548.7,
+      "sos_sd": 40.7
+    },
+    {
+      "sex": "male",
+      "age_min": 50,
+      "age_max": 59,
+      "age_band": "50-59",
+      "n": 327,
+      "age_mean": 55.5,
+      "bua_mean": 114.2,
+      "bua_sd": 13.1,
+      "sos_mean": 1545.0,
+      "sos_sd": 35.0
+    },
+    {
+      "sex": "male",
+      "age_min": 60,
+      "age_max": 69,
+      "age_band": "60-69",
+      "n": 506,
+      "age_mean": 65.1,
+      "bua_mean": 111.6,
+      "bua_sd": 13.8,
+      "sos_mean": 1541.0,
+      "sos_sd": 32.4
+    },
+    {
+      "sex": "male",
+      "age_min": 70,
+      "age_max": 74,
+      "age_band": "70-74",
+      "n": 128,
+      "age_mean": 72.2,
+      "bua_mean": 108.7,
+      "bua_sd": 16.0,
+      "sos_mean": 1527.3,
+      "sos_sd": 30.8
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "source": "data_radiacion.csv",
+  "product": "ISS TEPC (CDF ASCII export)",
+  "generated_from": "D:\\NASA\\_local\\data_radiacion.csv",
+  "variables": [
+    "AVG_DOSE_EQV_RATE (uSv/min)"
+  ],
+  "period": {
+    "start": "2018-04-10T23:19:39",
+    "end": "2018-04-11T23:19:39",
+    "days": 1,
+    "days_span": 2
+  },
+  "min_cell_n": 120,
+  "strata": [
+    {
+      "region": "all",
+      "hour": null,
+      "module": null,
+      "epoch": null,
+      "n": 1441,
+      "below_min_n": false,
+      "eq": {
+        "n": 1441,
+        "min": 0.026,
+        "max": 29.696,
+        "p50": 0.238,
+        "p95": 1.175,
+        "p99": 12.881,
+        "median_ln": -1.43548,
+        "mad_ln": 0.90616
+      }
+    },
+    {
+      "region": "all",
+      "hour": 0,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 1.118,
+        "p50": 0.156,
+        "p95": 0.9228,
+        "p99": 1.105,
+        "median_ln": -1.85798,
+        "mad_ln": 0.89876
+      }
+    },
+    {
+      "region": "all",
+      "hour": 1,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 1.34,
+        "p50": 0.341,
+        "p95": 1.0763,
+        "p99": 1.3282,
+        "median_ln": -1.07902,
+        "mad_ln": 0.81699
+      }
+    },
+    {
+      "region": "all",
+      "hour": 2,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.056,
+        "max": 17.794,
+        "p50": 0.709,
+        "p95": 13.8704,
+        "p99": 17.6642,
+        "median_ln": -0.3462,
+        "mad_ln": 0.56885
+      }
+    },
+    {
+      "region": "all",
+      "hour": 3,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.026,
+        "max": 1.068,
+        "p50": 0.19,
+        "p95": 0.67,
+        "p99": 0.8609,
+        "median_ln": -1.66086,
+        "mad_ln": 0.80832
+      }
+    },
+    {
+      "region": "all",
+      "hour": 4,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 20.096,
+        "p50": 0.365,
+        "p95": 13.3084,
+        "p99": 18.526,
+        "median_ln": -1.01102,
+        "mad_ln": 1.08475
+      }
+    },
+    {
+      "region": "all",
+      "hour": 5,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.035,
+        "max": 0.949,
+        "p50": 0.2365,
+        "p95": 0.6837,
+        "p99": 0.8658,
+        "median_ln": -1.44186,
+        "mad_ln": 0.69963
+      }
+    },
+    {
+      "region": "all",
+      "hour": 6,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.03,
+        "max": 0.977,
+        "p50": 0.199,
+        "p95": 0.5694,
+        "p99": 0.7746,
+        "median_ln": -1.61456,
+        "mad_ln": 0.62106
+      }
+    },
+    {
+      "region": "all",
+      "hour": 7,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 0.776,
+        "p50": 0.1725,
+        "p95": 0.5853,
+        "p99": 0.7506,
+        "median_ln": -1.75736,
+        "mad_ln": 0.88666
+      }
+    },
+    {
+      "region": "all",
+      "hour": 8,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.032,
+        "max": 0.62,
+        "p50": 0.1585,
+        "p95": 0.436,
+        "p99": 0.6153,
+        "median_ln": -1.84312,
+        "mad_ln": 0.70054
+      }
+    },
+    {
+      "region": "all",
+      "hour": 9,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.031,
+        "max": 1.827,
+        "p50": 0.277,
+        "p95": 0.8135,
+        "p99": 1.2647,
+        "median_ln": -1.28427,
+        "mad_ln": 0.57044
+      }
+    },
+    {
+      "region": "all",
+      "hour": 10,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.031,
+        "max": 14.264,
+        "p50": 0.178,
+        "p95": 10.4551,
+        "p99": 13.448,
+        "median_ln": -1.72698,
+        "mad_ln": 0.88898
+      }
+    },
+    {
+      "region": "all",
+      "hour": 11,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.028,
+        "max": 0.854,
+        "p50": 0.183,
+        "p95": 0.6746,
+        "p99": 0.8103,
+        "median_ln": -1.69948,
+        "mad_ln": 0.88814
+      }
+    },
+    {
+      "region": "all",
+      "hour": 12,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.039,
+        "max": 29.696,
+        "p50": 0.3095,
+        "p95": 23.0676,
+        "p99": 29.2989,
+        "median_ln": -1.1728,
+        "mad_ln": 0.66108
+      }
+    },
+    {
+      "region": "all",
+      "hour": 13,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.028,
+        "max": 3.727,
+        "p50": 0.1675,
+        "p95": 1.8847,
+        "p99": 3.2308,
+        "median_ln": -1.78731,
+        "mad_ln": 0.99768
+      }
+    },
+    {
+      "region": "all",
+      "hour": 14,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.026,
+        "max": 0.809,
+        "p50": 0.1515,
+        "p95": 0.6457,
+        "p99": 0.7234,
+        "median_ln": -1.88731,
+        "mad_ln": 0.79001
+      }
+    },
+    {
+      "region": "all",
+      "hour": 15,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.034,
+        "max": 1.316,
+        "p50": 0.329,
+        "p95": 0.9475,
+        "p99": 1.1921,
+        "median_ln": -1.1117,
+        "mad_ln": 0.71271
+      }
+    },
+    {
+      "region": "all",
+      "hour": 16,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.026,
+        "max": 1.252,
+        "p50": 0.249,
+        "p95": 1.1693,
+        "p99": 1.2254,
+        "median_ln": -1.39031,
+        "mad_ln": 0.98365
+      }
+    },
+    {
+      "region": "all",
+      "hour": 17,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 0.885,
+        "p50": 0.1425,
+        "p95": 0.6275,
+        "p99": 0.7859,
+        "median_ln": -1.9502,
+        "mad_ln": 0.98887
+      }
+    },
+    {
+      "region": "all",
+      "hour": 18,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.031,
+        "max": 1.38,
+        "p50": 0.4085,
+        "p95": 1.0543,
+        "p99": 1.2514,
+        "median_ln": -0.89526,
+        "mad_ln": 0.61435
+      }
+    },
+    {
+      "region": "all",
+      "hour": 19,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.033,
+        "max": 2.255,
+        "p50": 0.344,
+        "p95": 1.3121,
+        "p99": 1.7977,
+        "median_ln": -1.06713,
+        "mad_ln": 0.91361
+      }
+    },
+    {
+      "region": "all",
+      "hour": 20,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.029,
+        "max": 1.27,
+        "p50": 0.137,
+        "p95": 0.974,
+        "p99": 1.1844,
+        "median_ln": -1.9878,
+        "mad_ln": 1.07588
+      }
+    },
+    {
+      "region": "all",
+      "hour": 21,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.035,
+        "max": 1.346,
+        "p50": 0.2565,
+        "p95": 1.065,
+        "p99": 1.264,
+        "median_ln": -1.36105,
+        "mad_ln": 1.01725
+      }
+    },
+    {
+      "region": "all",
+      "hour": 22,
+      "module": null,
+      "epoch": null,
+      "n": 60,
+      "below_min_n": true,
+      "eq": {
+        "n": 60,
+        "min": 0.03,
+        "max": 1.368,
+        "p50": 0.388,
+        "p95": 1.2743,
+        "p99": 1.3255,
+        "median_ln": -0.95383,
+        "mad_ln": 0.93691
+      }
+    },
+    {
+      "region": "all",
+      "hour": 23,
+      "module": null,
+      "epoch": null,
+      "n": 61,
+      "below_min_n": true,
+      "eq": {
+        "n": 61,
+        "min": 0.03,
+        "max": 1.287,
+        "p50": 0.346,
+        "p95": 0.973,
+        "p99": 1.2342,
+        "median_ln": -1.06132,
+        "mad_ln": 0.75615
+      }
+    },
+    {
+      "region": "all",
+      "hour": null,
+      "module": null,
+      "epoch": "2018",
+      "n": 1441,
+      "below_min_n": false,
+      "eq": {
+        "n": 1441,
+        "min": 0.026,
+        "max": 29.696,
+        "p50": 0.238,
+        "p95": 1.175,
+        "p99": 12.881,
+        "median_ln": -1.43548,
+        "mad_ln": 0.90616
+      }
+    }
+  ],
+  "daily": {
+    "eq": {
+      "n": 1,
+      "insufficient": true,
+      "total_mean": 0.8888,
+      "p95": null,
+      "p99": null
+    }
+  },
+  "limits": {
+    "career_msv": 600.0,
+    "window_30d_msv": 250.0,
+    "spe_msv": 250.0
+  },
+  "thresholds": {
+    "yellow_percentile": 95,
+    "red_percentile": 99,
+    "fraction_amber": 0.5,
+    "fraction_red": 0.8,
+    "persistence": 3,
+    "min_cell_n": 120
+  },
+  "notes": "Referencia empirica en escala logaritmica. Si una celda tiene menos de 120 muestras, el clasificador retrocede a un estrato mas general. La dosis diaria solo se clasifica cuando hay suficientes dias con cobertura >= 80%."
+}
