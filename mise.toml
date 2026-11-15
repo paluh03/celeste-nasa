@@ -1,0 +1,49 @@
+# Toolchain única del proyecto. `mise install` deja todo listo.
+# Windows: mise usa shims, no requiere administrador.
+
+[tools]
+node = "24"
+python = "3.13"
+uv = "latest"
+bun = "latest"
+
+[env]
+# El venv lo gestiona uv en backend/.venv (default de uv project).
+PYTHONUNBUFFERED = "1"
+
+[tasks.api]
+description = "Backend FastAPI con recarga en vivo (uvicorn --reload)"
+dir = "backend"
+run = "uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000"
+
+[tasks.web]
+description = "Frontend React/Vite en modo desarrollo"
+dir = "frontend"
+run = "bun run dev"
+
+[tasks.dev]
+description = "API + web en paralelo con recarga en vivo"
+run = "bun run dev"
+
+[tasks.test]
+description = "ruff + pytest + tsc + vitest"
+run = "bun scripts/check.mjs"
+
+[tasks.lint]
+description = "Solo lint (ruff + tsc)"
+run = "bun scripts/check.mjs --lint"
+
+[tasks.seed]
+description = "Carga datos de ejemplo en la base .db"
+dir = "backend"
+run = "uv run python -m app.scripts.seed"
+
+[tasks.reference]
+description = "Regenera la referencia poblacional desde _local/Ultrasonido.xlsx"
+dir = "backend"
+run = "uv run python -m app.scripts.build_reference"
+
+[tasks.radiation-reference]
+description = "Regenera la referencia de radiacion desde _local/data_radiacion.csv"
+dir = "backend"
+run = "uv run python -m app.scripts.build_radiation_reference"

@@ -1,0 +1,15 @@
+{
+  "name": "nasa-space",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "NASA SPACE - monitoreo oseo SCAN (API FastAPI + React)",
+  "scripts": {
+    "dev": "bun scripts/dev.mjs",
+    "setup": "bun scripts/setup.mjs",
+    "check": "bun scripts/check.mjs",
+    "build": "bun run --cwd frontend build",
+    "test": "bun run --cwd frontend test",
+    "lint": "bun run --cwd frontend lint"
+  }
+}
